@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+            var arr1 = [5, 24, 81, 12, 60, 45];
+            for (var i = 0; i < arr1.length; i++) {
+                if (arr1[i] % 2 === 0) {
+                    console.log(arr1[i] + 10);
+                } else {
+                    console.log(arr1[i] - 5);
+                }
+            }
+
+
+        var arr2 = [5, 12, 35, 100, 46, 78, 45];
+        for(var i=0; i < arr2.length; i++){
+            if(arr2[i] % 5 == 0){
+                console.log(arr2[i]);
+            }
+        }
+
+
+        var arr3 = [34, 5, 78, 10, 29, 61, 87]
+        arr3.sort(function (a, b) {
+                return a - b;
+            });
+        for (var i = 0; i < arr3.length; i++) {
+            console.log(arr3[i]);
+        }
+
+
+    </script>
+</body>
+
+</html>
